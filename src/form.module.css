@@ -1,0 +1,60 @@
+.contentForm{
+    background-color: #FFFFFF;
+    width: 35rem;
+    padding: 2.4rem;
+}
+
+.formGroup{
+    margin-bottom: 1.6rem; 
+}
+
+.formGroup input[type=text],
+.formGroup input[type=email],
+.formGroup input[type=password]{
+    width: 100%;
+    border: 1px solid gray;
+    height: 4.8rem;
+    padding: 0 1.6rem;
+    font-size: 1.6rem;
+}
+
+h1{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 3.0rem;
+}
+
+button{
+    width: 100%;
+    height: 4.8rem;
+    cursor: pointer;
+    font-size: 1.6rem;
+    background-color: #5b1fa6;
+    color: #FFFFFF;
+    transition: filter 3.5ms;
+}
+
+button:hover{
+    filter: brightness(0.8);
+}
+
+.inputError{
+    border: 1px solid #FF0000 !important;
+}
+
+.inputError::placeholder{
+    color: #FF0000;
+}
+
+.labelError{
+    color: #FF0000;
+    display: block;
+    margin-top: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.sucessMessage{
+    color: #198754;
+    font-size: 1.2rem;
+    text-align: center;
+}
